@@ -5,15 +5,14 @@
 Página web de noticias que permita al usuario conocer los hechos más
 relevantes del ultimo momento
 
+# Problema a solucionar y objetivo
+1. **Problema a solucionar**: Inconvenientes al momento de buscar noticias recientes e antiguas
+2. **Objetivo**: Informar de manera dinámica a un publico objetivo permitiendo funciones que faciliten la búsqueda de las ultimas noticias-artículos
 
 # Alcance Inicial
 *
 *
 *
-
-# Ruta tecnológica
-1.**HTML**
-2.**CSS**
 
 
 # Equipo
@@ -25,7 +24,9 @@ relevantes del ultimo momento
    * **Usuario: karol-vel**
 
 
-
+# Ruta tecnológica
+1.**HTML**
+2.**CSS**
 
 
 
