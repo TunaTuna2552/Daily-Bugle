@@ -17,7 +17,7 @@ relevantes del ultimo momento
 
 # Equipo
 1. **Cristian Fabian Tunaroza Rodriguez**
-   ***Usuario: TunaTuna2552**
+   * **Usuario: TunaTuna2552**
 2. **Cristian David Navarrete Marulanda**
    * **Usuario: Cristian26951**
 3. **Karol Juliana Velasco Rincón**
@@ -28,6 +28,10 @@ relevantes del ultimo momento
 1.**HTML**
 2.**CSS**
 
+# Acuerdo de trabajo
+1. **Ramas**: Se trabaja con la rama principal main para código estable. 
+2. **Revisión de Código**:  Ningún cambio se fusiona directamente a main y se realiza un pull request por algún compañero por cada paso realizado.
+3. **Convención de Mensajes de Commit**: Se usará el estándar *Conventional Commits*
 
 
 
