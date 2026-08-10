@@ -1,9 +1,9 @@
 # Historias de Usuario-Daily-Bugle
 
 # HU-01: Visualización de Noticias Destacadas
-* **Como** lector de noticias,
-* **Quiero** ver una sección principal con la noticia del momento al ingresar al sitio,
-* **Para** enterarme rápidamente del hecho más relevante.
+* **Como** lector de noticias
+* **Quiero** ver una sección principal con la noticia del momento al ingresar al sitio
+* **Para** enterarme rápidamente del hecho más relevante
 
 * **Criterios de Aceptación**:
 1. La noticia principal debe destacar con un tamaño de letra e imagen mayor según la jerarquía visual.
