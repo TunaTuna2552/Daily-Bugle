@@ -11,9 +11,9 @@ relevantes del ultimo momento
 
 
 # Alcance Inicial
-1.**Inicio**: Vista general de artículos y noticias de la pagina
-2.**Login**: Los usuarios serán verificados al registrarse en la pagina
-3.**Biblioteca de noticias**: Modulo principal de visualización de noticias
+1. **Inicio**: Vista general de artículos y noticias de la pagina
+2. **Login**: Los usuarios serán verificados al registrarse en la pagina
+3. **Biblioteca de noticias**: Modulo principal de visualización de noticias
 
 
 # Equipo
