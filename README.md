@@ -24,14 +24,14 @@ relevantes del ultimo momento
    * **Usuario: Cristian26951**
    * **Rol: Analista/Revisor**
 3. **Karol Juliana Velasco Rincón**
-   * **Usuario: karol-vel**
+   * **Usuario: karol-velasco**
    * **ROL: Diseñadora UI**
 
 
 # Ruta tecnológica
-1.**HTML**
-2.**CSS**
-
+1. **HTML**
+2. **CSS**
+3. **JS**
 
 # Acuerdo de trabajo
 1. **Ramas**: Se trabaja con la rama principal main para código estable. 
