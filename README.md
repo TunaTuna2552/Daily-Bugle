@@ -8,7 +8,7 @@ relevantes del ultimo momento
 # Problema a solucionar y objetivo
 1. **Problema a solucionar**: Inconvenientes al momento de buscar noticias recientes e antiguas
 2. **Objetivo General**: Informar de manera dinámica a un publico objetivo permitiendo funciones que faciliten la búsqueda de las ultimas noticias-artículos
-   **Objetivos Especificos**:
+3. **Objetivos Especificos**:
    - Facilitar el acceso a informacion actualizada mediante la publicacion organizada de noticas
    - Mejorar la busqueda de informacion permitiendo encontrar noticias recientes y antiguas rapidamente
    - Permitir la consulta de noticias segun diferentes categorias o temas
