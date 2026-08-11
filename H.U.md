@@ -61,7 +61,7 @@
 1. Formulario con campos: Nombre, Correo y Contraseña.
 2. Validación básica HTML5 para correo válido y campos obligatorios.
 
-#HU-08: Inicio de Sesión de Usuarios
+# HU-08: Inicio de Sesión de Usuarios
 * **Como** usuario registrado
 * **Quiero** iniciar sesión con mis credenciales
 * **Para** acceder a funciones personalizadas
@@ -70,7 +70,7 @@
 1. Formulario de login accesible desde el encabezado principal.
 2. Botón de envío que valide la presencia de datos.
 
-HU-09: Verificación de Datos de Registro
+# HU-09: Verificación de Datos de Registro
 * **Como** sistema
 * **Quiero** verificar que los datos ingresados cumplan con las reglas mínimas de formato
 * **Para** asegurar la calidad de las cuentas registradas
@@ -78,7 +78,7 @@ HU-09: Verificación de Datos de Registro
 Criterios de Aceptación:
 1. Mostrar mensaje de error visual en CSS si la contraseña no cumple la longitud mínima o el correo es inválido.
 
-#HU-10: Cierre de Sesión
+# HU-10: Cierre de Sesión
 * **Como** usuario autenticado
 * **Quiero** poder cerrar sesión en cualquier momento
 * **Para** proteger mi cuenta en dispositivos compartidos
