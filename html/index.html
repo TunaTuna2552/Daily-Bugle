@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily-Bugle | La noticia que importa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span class="current-date">Domingo, 10 de agosto de 2026</span>
+      <div class="user-status" id="userStatus">
+      </div>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <div class="container header-container">
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menú">
+        <svg width="22" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="0" y1="3" x2="22" y2="3" />
+          <line x1="0" y1="9" x2="22" y2="9" />
+          <line x1="0" y1="15" x2="22" y2="15" />
+        </svg>
+      </button>
+
+      <div class="logo-box">
+        <a href="#" class="logo">DAILY-<span class="accent">BUGLE</span></a>
+        <span class="tagline">La noticia que importa · desde 1974</span>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar noticias...">
+        <button id="searchBtn" aria-label="Buscar">
+          <svg width="14" height="14" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+            <circle cx="6" cy="6" r="5" />
+            <line x1="10" y1="10" x2="14" y2="14" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="header-actions" id="headerActions">
+        <a href="login.html" class="btn btn-outline desktop-only" id="loginHeaderBtn">Iniciar sesión</a>
+        <button class="btn btn-primary">Suscribirse</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container" id="navContainer">
+      <button class="nav-item active" data-category="Todas">Inicio</button>
+      <button class="nav-item" data-category="Política">Política</button>
+      <button class="nav-item" data-category="Tecnología">Tecnología</button>
+      <button class="nav-item" data-category="Deportes">Deportes</button>
+      <button class="nav-item" data-category="Entretenimiento">Entretenimiento</button>
+      <button class="nav-item" data-category="Economía">Economía</button>
+      <button class="nav-item" data-category="Mundo">Mundo</button>
+    </div>
+  </nav>
+
+  <div class="exclusive-banner hidden" id="exclusiveBanner">
+    <span>🕷️ <strong>EDICIÓN EXCLUSIVA DE SPIDER-MAN:</strong> Tienes acceso a los reportajes confidenciales sobre el Trepamuros de Nueva York.</span>
+  </div>
+
+  <div class="breaking-bar">
+    <div class="breaking-label" id="breakingLabel">Última hora</div>
+    <div class="breaking-text" id="breakingText">
+      Mercados europeos cierran al alza por tercer día consecutivo · Nuevas negociaciones de paz en el Mediterráneo Oriental · La OMS declara alerta sanitaria preventiva
+    </div>
+  </div>
+
+  <main class="main-content">
+    <div class="container layout-grid">
+      
+      <div class="primary-column">
+        
+        <section class="featured-section">
+          <div class="section-header">
+            <div class="indicator"></div>
+            <h2 id="featuredSectionTitle">Noticias Destacadas</h2>
+            <div class="line"></div>
+          </div>
+
+          <div class="featured-grid">
+            <article class="hero-card" id="heroCard">
+              <div class="hero-img-box">
+                <img src="" alt="" id="heroImg">
+                <span class="category-badge" id="heroCategory">POLÍTICA</span>
+              </div>
+              <div class="hero-content">
+                <h1 id="heroTitle"></h1>
+                <p id="heroSummary"></p>
+                <div class="card-footer">
+                  <span class="meta-date" id="heroMeta"></span>
+                  <a href="#" class="btn btn-primary btn-sm">Leer más →</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="secondary-list" id="secondaryList">
+            </div>
+          </div>
+        </section>
+
+        <section class="latest-section">
+          <div class="section-header">
+            <div class="indicator"></div>
+            <h2 id="latestSectionTitle">Últimas Noticias</h2>
+            <div class="line"></div>
+          </div>
+
+          <div class="category-filters" id="categoryFilters">
+            <button class="filter-btn active" data-category="Todas">Todas</button>
+            <button class="filter-btn" data-category="Política">Política</button>
+            <button class="filter-btn" data-category="Tecnología">Tecnología</button>
+            <button class="filter-btn" data-category="Deportes">Deportes</button>
+            <button class="filter-btn" data-category="Entretenimiento">Entretenimiento</button>
+            <button class="filter-btn" data-category="Economía">Economía</button>
+            <button class="filter-btn" data-category="Mundo">Mundo</button>
+          </div>
+
+          <div class="articles-grid" id="articlesGrid">
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="sidebar">
+        <div class="widget popular-widget">
+          <div class="widget-header">Lo más leído</div>
+          <div class="popular-list" id="popularList">
+          </div>
+        </div>
+
+        <div class="widget weather-widget">
+          <div class="weather-title">EL TIEMPO HOY</div>
+          <div class="weather-body">
+            <div>
+              <div class="weather-temp">23°</div>
+              <div class="weather-location">Madrid · Despejado</div>
+            </div>
+            <span class="weather-icon">☀️</span>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <section class="newsletter-section">
+    <div class="container newsletter-content">
+      <div class="accent-bar"></div>
+      <h2>Mantente informado</h2>
+      <p>Recibe las noticias más importantes directamente en tu correo. Sin spam, solo información verificada.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="correo@ejemplo.com" required id="newsletterEmail">
+        <button type="submit" class="btn btn-primary">Suscribirme</button>
+      </form>
+      <span class="newsletter-disclaimer">Al suscribirte aceptas nuestra política de privacidad. Cancela cuando quieras.</span>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo logo-light">DAILY-<span class="accent">BUGLE</span></a>
+          <p>El periódico digital de referencia. Periodismo independiente, riguroso y comprometido con la verdad desde 1974.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="X">𝕏</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">▶</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-heading">Secciones</div>
+          <ul>
+            <li><a href="#">Política</a></li>
+            <li><a href="#">Tecnología</a></li>
+            <li><a href="#">Deportes</a></li>
+            <li><a href="#">Entretenimiento</a></li>
+            <li><a href="#">Economía</a></li>
+            <li><a href="#">Mundo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-heading">Daily-Bugle</div>
+          <ul>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Publicidad</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-heading">Legal</div>
+          <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de cookies</a></li>
+            <li><a href="#">Aviso legal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Daily-Bugle Media Group. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/news.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
