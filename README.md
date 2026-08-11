@@ -40,7 +40,7 @@ relevantes del ultimo momento
 
 
 # Criterios de calidad
-1.**arquitectura de información clara**: Menús simples organizados por secciones (Nacional, Deportes, Tecnología, etc.) y un buscador interno eficiente.
-2.**Jerarquía visual**: Uso intencional de tipografía, tamaños e imágenes para destacar la noticia principal sobre las secundarias.
-3.**Legibilidad**: Fuentes tipográficas limpias, buen contraste entre texto y fondo, y espacio blanco suficiente para facilitar la lectura rápida.
-4.**Diseño Responsive**: Adaptación perfecta a pantallas móviles, ya que más del 70% del tráfico de noticias proviene de smartphones.
+1. **arquitectura de información clara**: Menús simples organizados por secciones (Nacional, Deportes, Tecnología, etc.) y un buscador interno eficiente.
+2. **Jerarquía visual**: Uso intencional de tipografía, tamaños e imágenes para destacar la noticia principal sobre las secundarias.
+3. **Legibilidad**: Fuentes tipográficas limpias, buen contraste entre texto y fondo, y espacio blanco suficiente para facilitar la lectura rápida.
+4. **Diseño Responsive**: Adaptación perfecta a pantallas móviles, ya que más del 70% del tráfico de noticias proviene de smartphones.
