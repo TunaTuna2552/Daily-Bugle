@@ -25,7 +25,7 @@ relevantes del ultimo momento
    * **Rol: Analista/Revisor**
 3. **Karol Juliana Velasco Rincón**
    * **Usuario: karol-velasco**
-   * **ROL: Diseñadora UI**
+   * **Rol: Diseñadora UI**
 
 
 # Ruta tecnológica
